@@ -9,7 +9,8 @@ int buffer_pointer;
 // number of elements in buffer
 int buffer_length;
 
-pthread_mutex_t mutex;
+pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+
 
 void produce() {
   while (1) {

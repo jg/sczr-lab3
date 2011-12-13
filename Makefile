@@ -1,2 +1,2 @@
-all: main.c
-	gcc -w main.c -pthread
+all: file.c
+	gcc -w file.c -pthread 
