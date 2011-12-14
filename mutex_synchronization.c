@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <pthread.h>
 
-#define BUFFER_SIZE 10
+#define BUFFER1_SIZE 10
+#define BUFFER2_SIZE 10
 int buffer[BUFFER_SIZE];
 
-// points to first free cell in buffer
+// points to first cell in buffer
 int buffer_pointer;
 // number of elements in buffer
 int buffer_length;
